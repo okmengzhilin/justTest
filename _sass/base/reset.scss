@@ -1,0 +1,197 @@
+
+@import "../base/var.scss";
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+b,
+big,
+blockquote,
+body,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+u,
+ul,
+var {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus {
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    height: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+    text-decoration: none;
+}
+
+fieldset,
+img {
+    border: none;
+}
+
+button,
+label {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    box-sizing: border-box;
+    *font-size: 100%;
+    color: #333;
+
+    &:focus {
+        background-color: #fff;
+    }
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    vertical-align: -2px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-input-placeholder {
+    color: $disabledTxt !important;
+    /* WebKit browsers */
+}
+
+input:-moz-placeholder {
+    color: $disabledTxt !important;
+    /* Mozilla Firefox 4 to 18 */
+}
+
+input::-moz-placeholder {
+    color: $disabledTxt !important;
+    /* Mozilla Firefox 19+ */
+}
+
+input:-ms-input-placeholder {
+    color: $disabledTxt !important;
+    /* Internet Explorer 10+ */
+}
+
+body {
+    font:normal 14px/1.3 Helvetica, Tahoma, Arial,/*STXihei, "华文细黑",*/
+    "Microsoft Yahei", "微软雅黑", sans-serif;
+}
+/*# sourceMappingURL=reset.css.map */
