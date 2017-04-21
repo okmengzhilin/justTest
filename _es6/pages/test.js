@@ -18,6 +18,8 @@ var init = new Init();
 
 var param = 2;
 
+var param1 = 2;
+
 init.init();
 
 $("#test").html(init.b);
