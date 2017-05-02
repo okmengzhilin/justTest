@@ -4,7 +4,7 @@ export default class Test {
 	constructor(){
 	    this.a = 1;
 	    this.b = (new testModule()).b;
-	    this.c = 5;
+	    this.c = 2;
 	}
 
 	init(){

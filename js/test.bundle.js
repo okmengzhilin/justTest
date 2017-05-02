@@ -25,6 +25,7 @@ var Test = function () {
 
 		this.a = 1;
 		this.b = new _testModule2.default().b;
+		this.c = 2;
 	}
 
 	_createClass(Test, [{
@@ -114,6 +115,8 @@ var init = new _init2.default();
 */
 
 var param = 2;
+
+var param1 = 2;
 
 init.init();
 
