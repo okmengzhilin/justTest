@@ -118,6 +118,8 @@ var param = 2;
 
 var param1 = 2;
 
+var param3 = 5;
+
 init.init();
 
 (0, _jquery2.default)("#test").html(init.b);

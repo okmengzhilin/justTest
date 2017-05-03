@@ -20,6 +20,8 @@ var param = 2;
 
 var param1 = 2;
 
+var param3 =5 ;
+
 init.init();
 
 $("#test").html(init.b);
